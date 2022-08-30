@@ -1,0 +1,75 @@
+body {
+    background-color:beige;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.headerLogo img{
+    display: inline-flex;
+    width:160px;
+}
+
+.navPosition {
+   width: 100%;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+    padding: 0 10px;
+}
+.padding {
+    padding-left: 5%;
+}
+h1{
+    padding-top: 1.5%;
+    margin: 4% 2% 4% 1%;
+    font-size: 3rem;
+    font-style:initial;
+}
+h2 {
+    font-size: 1rem;
+    margin: 2% 2% 4% 2%;
+    font-style: normal;
+    font-weight: 100;
+    text-align: justify;
+}
+h3 {
+    margin: 5% 2% 0% 7%;
+    font-weight: bolder;
+}
+p {
+    font-size: 1rem;
+    margin: 4% 2% 4% 1%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+#darEnAdopcion {
+    margin: 4% 2% 2% 1%;
+    display: block;
+}
+.position{
+
+    margin: 2% 0% 0% 2%;
+}
+#select1 {
+    margin: 0% 2% 4% 1%;
+}
+.generalposition {
+    margin: 7% 0% 7% 5%;
+}
+.cards { 
+    margin: 5% 5% 7% 5%;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 00.5rem;
+}
+.buttonPosition {
+    margin-top: 0.5rem;
+}
