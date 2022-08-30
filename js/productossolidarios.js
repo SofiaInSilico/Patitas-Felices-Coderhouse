@@ -29,8 +29,8 @@ function productosVoluntad(productossolidarios, id) {
                 //Agrego la clase columna
                 divProducto.classList.add('col');
                 //Agrego la estructura de la clase card para generarla en la interfaz
-                divProducto.innerHTML = `<div class="card" style="width: 18rem;">
-                                        <img src="${producto.img}" class="card-img-top" alt="...">
+                divProducto.innerHTML = `<div class="card" style= "width: 30rem;">
+                                        <img src="${producto.img}" class="card-img-top" style= "height: 25rem;" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">${producto.titulo}</h5>
                                         <p class="card-text">Precio: ${producto.precio}</p>
